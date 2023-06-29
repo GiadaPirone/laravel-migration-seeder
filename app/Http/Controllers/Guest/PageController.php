@@ -9,7 +9,7 @@ use App\Models\Train;
 class PageController extends Controller
 {
     public function index(){
-        $trains = Train::where('data_partenza', 1)->get();
-        return view('welcome', compact('movies'));
+        $trains = Train::where('data_partenza', '2023-06-29')->get();
+        return view('welcome', compact('trains'));
     }
 }
