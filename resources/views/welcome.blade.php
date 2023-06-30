@@ -14,6 +14,7 @@
                   <p class="card-text">OrarioP: {{$train ->orario_partenza}}</p>
                   <p class="card-text">OrarioA: {{$train ->orario_arrivo}}</p>
                   <p class="card-text">CD Train: {{$train ->codice_treno}}</p>
+                  <p class="card-text">Data Partenza: {{$train ->data_partenza}}</p>
                   
                 </div>
             </div>
